@@ -1,0 +1,82 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background: #191d1e; /* Old browsers */
+  background: -moz-linear-gradient(
+    0deg,
+    #191d1e 50%,
+    #283139 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(50%, #191d1e),
+    color-stop(100%, #283139)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    0deg,
+    #191d1e 50%,
+    #283139 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    0deg,
+    #191d1e 50%,
+    #283139 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(0deg, #191d1e 50%, #283139 100%); /* IE10+ */
+  background: linear-gradient(0deg, #191d1e 50%, #283139 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191d1e', endColorstr='#283139',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-attachment: fixed;
+}
+
+#projector {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.center-div {
+  width: 580px;
+  height: 374px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -290px;
+  margin-top: -187px;
+}
+
+#preloaderDiv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -27px;
+  margin-top: -27px;
+}
+
+#logo {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#date2014 {
+  position: absolute;
+  padding-left: 210px;
+  padding-top: 15px;
+  opacity: 0;
+  top: 303px;
+  left: 0;
+  filter: alpha(opacity=0);
+}
+
+/*body {
+  background-color: #4978ee;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%233e66ca' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+*/
